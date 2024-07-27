@@ -1,13 +1,14 @@
 import React from 'react';
+import img2 from "../assets/img2.jpg"
 
 const ChairmanSection = () => {
   return (
     <div className="bg-black text-white py-12">
       <div className="max-w-6xl mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <img src="/src/assets/img2.jpg" alt="Dummy" className="w-full h-auto rounded" />
-          <img src="/src/assets/img2.jpg" alt="Dummy" className="w-full h-auto rounded" />
-          <img src="/src/assets/img2.jpg" alt="Dummy" className="w-full h-auto rounded" />
+          <img src={img2} alt="Dummy" className="w-full h-auto rounded" />
+          <img src={img2} alt="Dummy" className="w-full h-auto rounded" />
+          <img src={img2} alt="Dummy" className="w-full h-auto rounded" />
         </div>
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-4">Know our Chairman</h2>

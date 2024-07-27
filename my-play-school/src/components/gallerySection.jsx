@@ -1,11 +1,16 @@
 import React from 'react';
+import Img1 from "../assets/img1.jpg"
+import Img2 from "../assets/img2.jpg"
+import Img3 from "../assets/img3.jpg"
+import Img4 from "../assets/img4.jpg"
+
 
 const GallerySection = () => {
   const dummyImages = [
-    '/src/assets/img1.jpg',
-    '/src/assets/img2.jpg',
-    '/src/assets/img3.jpg',
-    '/src/assets/img4.jpg',
+    Img1,
+    Img2,
+    Img3,
+    Img4,
   ];
 
   return (

@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import 'tailwindcss/tailwind.css';
+import imgs1 from "../assets/imgs1.jpg"
+import imgs2 from "../assets/imgs2jpg.jpg"
+import imgs3 from "../assets/imgs3.jpg"
+
 
 const Slider = () => {
   const [activeIndex, setActiveIndex] = useState(1);
 
   const images = [
-    "/src/assets/imgs1.jpg?text=Image+1",
-    "/src/assets/imgs1.jpg?text=Image+2",
-    "/src/assets/imgs3.jpg?text=Image+3"
+    imgs1,
+    imgs2,
+    imgs3
   ];
 
   return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import profile from "../assets/profile.png"
 
 const ProfileCard = () => {
   return (
@@ -7,7 +8,7 @@ const ProfileCard = () => {
       <div className="bg-white shadow-lg rounded-lg overflow-hidden flex">
         <div className="w-1/3">
           <img 
-            src="/src/assets/profile.png" 
+            src={profile} 
             alt="Profile" 
             className="object-cover w-full h-full"
             style={{ borderRadius: '8px 0 0 8px' }}
